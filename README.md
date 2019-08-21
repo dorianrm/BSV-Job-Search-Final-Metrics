@@ -11,9 +11,9 @@
 * Analyzes data and outputs metrics to a “Final Metrics” tab that is created
 * Uses coding language Python 
 * 2 versions of the code are available:
-** 2 stage interview process
-** 3 stage interview process
-** Each code performs the same processes with one version adding an extra round of interviews taken into account
+  - 2 stage interview process
+  - 3 stage interview process
+  - Each code performs the same processes with one version adding an extra round of interviews taken into account
 
 Note: A lot of the code is hard coded. This means that the code only operates under very specific parameters that have been set and will be detailed below. It is important that every parameter is followed for the code to work properly.
 
@@ -28,17 +28,17 @@ Note: Anaconda automatically installs Python - coding language
 **2. Download Sublime Text :** https://www.sublimetext.com/ 
 Follow instruction to install program on computer
 
-3. Open terminal - Click search bar at top of personal computer and search “terminal”
+**3. Open terminal :** Click search bar at top of personal computer and search “terminal”
 
-4. Type: pip install gspread
+**4. Type : pip install gspread**
 Wait for download and “successfully installed” prompt
 
-5. Type: pip install oauth2client
+**5. Type : pip install oauth2client**
 Wait for download and “successfully installed” prompt
 
 # Allowing code to access google sheets
-Google account
-In order for the code to access google sheets, I created a new gmail account which has already been configured to access the data sheets that we fill manually fill out with applicant info. The account info is below but there’s no need to login and change anything.
+**Google account**
+ - In order for the code to access google sheets, I created a new gmail account which has already been configured to access the data sheets that we fill manually fill out with applicant info. The account info is below but there’s no need to login and change anything.
 To run the code on a respective google sheet, share the document with the email address: final-metrics@final-metrics.iam.gserviceaccount.com
 
 Gmail Account Info:
