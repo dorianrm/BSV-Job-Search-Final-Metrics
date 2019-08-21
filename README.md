@@ -41,42 +41,41 @@ Wait for download and “successfully installed” prompt
  - In order for the code to access google sheets, I created a new gmail account which has already been configured to access the data sheets that we fill manually fill out with applicant info. The account info is below but there’s no need to login and change anything.
 To run the code on a respective google sheet, share the document with the email address: final-metrics@final-metrics.iam.gserviceaccount.com
 
-**Gmail Account Info:**
+### Gmail Account Info:
+
 **Email:** BTSVcode@gmail.com
+
 **Password:** BTSVpython
 
 
 
 ## Running the code
 
-Code files
-The code and other necessary files are stored within the folder shared with you called “BTSVcode”
-This entire file must be saved anywhere on your computer.
+### Code files
+ - The code and other necessary files are stored within the folder shared with you called “BTSVcode”
+ - This entire file must be saved anywhere on your computer.
 
-Running code
-Open code in sublime
-To access the code, open sublime and open the file called “finalmetrics.py” within sublime. Opening it any other place will not work. 
+### Running code
+1. Open code in sublime
+   - To access the code, open sublime and open the file called “finalmetrics.py” within sublime. Opening it any other place will not work. 
 
-Change line 15
-Line 15 contains the line of code which tells the code which spreadsheet to access in google docs. Type the name of the spreadsheet which you want to run the code on. The input is case/space,character sensitive so the name of the spreadsheet must be typed in exactly. Insert the name of the spreadsheet between the ‘ ‘ marks.
-Ex.  ->   file = client.open('Dev/Comm') 
-Ex.  ->   file = client.open(‘SDPI- Recruitment Metrics’)
+2. Change line 15
+   - Line 15 contains the line of code which tells the code which spreadsheet to access in google docs. Type the name of the spreadsheet which you want to run the code on. The input is case/space,character sensitive so the name of the spreadsheet must be typed in exactly. Insert the name of the spreadsheet between the ‘ ‘ marks.
+   - Ex.  ->   file = client.open('Dev/Comm') 
+   - Ex.  ->   file = client.open(‘SDPI- Recruitment Metrics’)
 
-Run the code
-At the top click: tools -> build
-The code should run. It will take roughly 5 minutes to fully complete. The small text box underneath the code in sublime will display “success” if the code finishes correctly. You can also view the code running in real time in the spreadsheet. A new tab will be created called “Final Metrics” and info will be printing.
-
-
+### Run the code
+ - At the top click: tools -> build
+ - The code should run. It will take roughly 5 minutes to fully complete. The small text box underneath the code in sublime will display “success” if the code finishes correctly. You can also view the code running in real time in the spreadsheet. A new tab will be created called “Final Metrics” and info will be printing.
 
 
+## Intricacies and Limitations of this code
 
-Intricacies and Limitations of this code
-
-Format of Applicant Info Tab
-The code pools the data that it analyzes from only the first tab. The first tab in the spreadsheet should be correctly formatted (detailed below) with the proper applicant data inputted.
-These are links to format templates of how the applicant info tab should be set up:
-2 Interview Rounds: https://docs.google.com/spreadsheets/d/1wObWThywQbw2HEzSX1MVX5guXa3gRqejYcpkH1or_bo/edit#gid=0
-3 Interview Rounds:
+### Format of Applicant Info Tab
+ - The code pools the data that it analyzes from only the first tab. The first tab in the spreadsheet should be correctly formatted (detailed below) with the proper applicant data inputted.
+ - These are links to format templates of how the applicant info tab should be set up:
+   - 2 Interview Rounds: https://docs.google.com/spreadsheets/d/1wObWThywQbw2HEzSX1MVX5guXa3gRqejYcpkH1or_bo/edit#gid=0
+   - 3 Interview Rounds:
 https://docs.google.com/spreadsheets/d/1JSEwX1i_JBneS8Ms6uW_G08NJu_TJnWBVorbXNSoF6c/edit#gid=0
 Also attached below are several pics of how the applicant info tab should be formatted to ensure the code can read it correctly.
 
