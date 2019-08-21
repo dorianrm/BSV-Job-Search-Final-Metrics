@@ -33,7 +33,7 @@ This script was developed during my time at Breakthrough Silicon Valley and is i
  - Note: Anaconda automatically installs Python - coding language 
  
 **2. Download Sublime Text :** https://www.sublimetext.com/ 
- - Follow instruction to install program on computer
+ - Follow instructions to install program on computer
 
 **3. Open terminal :** 
  - Click search bar at top of personal computer and search “terminal”
@@ -44,8 +44,8 @@ This script was developed during my time at Breakthrough Silicon Valley and is i
 **5. Type : pip install oauth2client**
  - Wait for download and “successfully installed” prompt
 
-# Allowing code to access google sheets
-**Google account**
+## Allowing code to access google sheets
+### Google account 
  - In order for the code to access google sheets, I created a new gmail account which has already been configured to access the data sheets that we fill manually fill out with applicant info. The account info is below but there’s no need to login and change anything.
 To run the code on a respective google sheet, share the document with the email address: final-metrics@final-metrics.iam.gserviceaccount.com
 
