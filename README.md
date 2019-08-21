@@ -22,19 +22,20 @@ Note: A lot of the code is hard coded. This means that the code only operates un
 
 Downloading programs to run Python
 **1. Download Anaconda 3 :** https://www.anaconda.com/distribution/
-Follow instructions to install anaconda on computer
-Note: Anaconda automatically installs Python - coding language 
+ - Follow instructions to install anaconda on computer
+ - Note: Anaconda automatically installs Python - coding language 
  
 **2. Download Sublime Text :** https://www.sublimetext.com/ 
-Follow instruction to install program on computer
+ - Follow instruction to install program on computer
 
-**3. Open terminal :** Click search bar at top of personal computer and search “terminal”
+**3. Open terminal :** 
+ - Click search bar at top of personal computer and search “terminal”
 
 **4. Type : pip install gspread**
-Wait for download and “successfully installed” prompt
+ - Wait for download and “successfully installed” prompt
 
 **5. Type : pip install oauth2client**
-Wait for download and “successfully installed” prompt
+ - Wait for download and “successfully installed” prompt
 
 # Allowing code to access google sheets
 **Google account**
@@ -75,18 +76,123 @@ To run the code on a respective google sheet, share the document with the email 
  - The code pools the data that it analyzes from only the first tab. The first tab in the spreadsheet should be correctly formatted (detailed below) with the proper applicant data inputted.
  - These are links to format templates of how the applicant info tab should be set up:
    - 2 Interview Rounds: https://docs.google.com/spreadsheets/d/1wObWThywQbw2HEzSX1MVX5guXa3gRqejYcpkH1or_bo/edit#gid=0
-   - 3 Interview Rounds:
-https://docs.google.com/spreadsheets/d/1JSEwX1i_JBneS8Ms6uW_G08NJu_TJnWBVorbXNSoF6c/edit#gid=0
-Also attached below are several pics of how the applicant info tab should be formatted to ensure the code can read it correctly.
+   - 3 Interview Rounds: https://docs.google.com/spreadsheets/d/1JSEwX1i_JBneS8Ms6uW_G08NJu_TJnWBVorbXNSoF6c/edit#gid=0
+ - Also attached below are several pics of how the applicant info tab should be formatted to ensure the code can read it correctly.
 
 Overall 2 Round Format:
 
+A: Date of Application
 
+B: First Name
+
+C: Last Name
+
+D: Email
+
+E: Number
+
+F: Source of Hire
+
+G: Last Contact
+
+H: Phone Interview Conducted?
+
+I: Phone Screen Status
+
+J: Phone Screen Notes
+
+K: 1st Round Conducted?
+
+L: 1st Round Status
+
+M: 1st Round Notes
+
+N: 2nd Round Conducted?
+
+O: 2nd Round Status
+
+P: Updates/Notes
+
+Q: Rejection Sent?
+
+R: Keep in contact?
+
+S: Extra Notes
+
+T: Gender
+
+U: Race/Ethnicity
+
+V: Veteran
+
+W: Disability
+
+X: Current Location
+
+Y: Desired Salary
+
+Z: Languages
 
 
 Overall 3 Round Format:
 
+A: Date of Application
 
+B: First Name
+
+C: Last Name
+
+D: Email
+
+E: Number
+
+F: Source of Hire
+
+G: Last Contact
+
+H: Phone Interview Conducted?
+
+I: Phone Screen Status
+
+J: Phone Screen Notes
+
+K: 1st Round Conducted?
+
+L: 1st Round Status
+
+M: 1st Round Notes
+
+N: 2nd Round Conducted?
+
+O: 2nd Round Status
+
+P: 2nd Round Notes
+
+Q: 3rd Round Conducted
+
+R: 3rd Round Status
+
+S: Updates/Notes
+
+T: Rejection Sent?
+
+U: Keep in contact?
+
+V: Extra Notes
+
+W: Gender
+
+X: Race/Ethnicity
+
+Y: Veteran
+
+Z: Disability
+
+AA: Current Location
+
+AB: Desired Salary
+
+AC: Languages
 
 
 
