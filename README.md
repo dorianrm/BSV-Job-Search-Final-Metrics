@@ -1,8 +1,12 @@
 # BSV Job Search Final Metrics
 
+
+
 ## Foreword
 
-This document outlines the correct uses 
+This document outlines the correct uses for a script written in Python meant to streamline the process in which data analysis on job search demographics/statistics is conducted.
+
+This script was developed during my time at Breakthrough Silicon Valley and is intended for continued use by their organization.
 
 
 
