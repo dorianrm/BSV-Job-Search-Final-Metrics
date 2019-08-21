@@ -41,9 +41,9 @@ Wait for download and “successfully installed” prompt
  - In order for the code to access google sheets, I created a new gmail account which has already been configured to access the data sheets that we fill manually fill out with applicant info. The account info is below but there’s no need to login and change anything.
 To run the code on a respective google sheet, share the document with the email address: final-metrics@final-metrics.iam.gserviceaccount.com
 
-Gmail Account Info:
-Email: BTSVcode@gmail.com
-Password: BTSVpython
+**Gmail Account Info:**
+**Email:** BTSVcode@gmail.com
+**Password:** BTSVpython
 
 
 
