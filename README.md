@@ -60,7 +60,7 @@ To run the code on a respective google sheet, share the document with the email 
 ## Running the code
 
 ### Code files
- - The code and other necessary files are stored within the folder shared with you called “BTSVcode”
+ - The code and other necessary files are stored within the folder within this repository titled “BTSVcode”
  - This entire file must be saved anywhere on your computer.
 
 ### Running code
