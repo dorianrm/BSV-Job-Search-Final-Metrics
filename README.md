@@ -79,7 +79,7 @@ To run the code on a respective google sheet, share the document with the email 
    - 3 Interview Rounds: https://docs.google.com/spreadsheets/d/1JSEwX1i_JBneS8Ms6uW_G08NJu_TJnWBVorbXNSoF6c/edit#gid=0
  - Also attached below are several pics of how the applicant info tab should be formatted to ensure the code can read it correctly.
 
-Overall 2 Round Format:
+### Overall 2 Round Format:
 
 A: Date of Application
 
@@ -134,7 +134,7 @@ Y: Desired Salary
 Z: Languages
 
 
-Overall 3 Round Format:
+### Overall 3 Round Format:
 
 A: Date of Application
 
@@ -195,77 +195,61 @@ AB: Desired Salary
 AC: Languages
 
 
+### Gender options:
 
+- Male
+- Female
+- Nonbinary
+- Decline to Specify
+- No Data
 
+### Race/Ethnicity Options: 
 
+- Hispanic/Latino
+- White
+- Black/African American
+- Native Hawaiian/Other Pac Islander
+- Asian
+- American Indian/Alaska Native
+- Two or More Races
+- Decline to Specify
+- No Data
 
+### Veteran Options:
 
-Gender options:
+- No Data
+- Disabled Veteran
+- Armed Forces Service Medal Veteran
+- Veteran who served on active duty during a war or in a campaign or expedition for which a campaign badge has been authorized
+- Recently Separated Veteran
+- Veteran (but not one of the four protected classes above)
+- Decline to state
+- Not a Veteran
 
+### Disability Options:
 
+- No Data
+- Not
+- Yes 
+- Decline to Answer
 
-
-
-
-
-
-
-
-
-
-
-Race/Ethnicity Options: 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Veteran Options:
-
-
-
-Disability Options:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Note:
+**Note:**
 These above drop down list options can be created by clicking the top of the row (to format the entire row) and selecting the “data validation” button. Then select list of options and manually type in each option separated by commas.
 
-Important: The code has specific columns that it reads from to get certain info, therefore if any extra columns are added/deleted the code won’t work.
+**Important:** The code has specific columns that it reads from to get certain info, therefore if any extra columns are added/deleted the code won’t work.
 
 
-Rules for inputting data into certain columns
+### Rules for inputting data into certain columns
 
-Source of Hire: If Trinet says “Our job board” → input “Breakthrough”
+**Source of Hire:** If Trinet says “Our job board” → input “Breakthrough”
 
-Desired Salary:
-Input “$” followed by desired salary amount of triNet.
-Ex. input $60,000  not  60,000
-If TriNet has a $/per hour value, calculate the yearly salary this would be and input this into the desired salary column/cell
-Ex. $40/hr  →  $83,200
+**Desired Salary:**
+ - Input “$” followed by desired salary amount of triNet.
+   - Ex. input $60,000  not  60,000
+ - If TriNet has a $/per hour value, calculate the yearly salary this would be and input this into the desired salary column/cell
+   - Ex. $40/hr  →  $83,200
 
-Phone Screen/ 1st Round/ 2nd Round Status/ 3rd Round Status:
+**Phone Screen/ 1st Round/ 2nd Round Status/ 3rd Round Status:**
 Use this column to indicate whether an email needs to be sent, interview scheduled, or any other indication of the current step or steps needed to be taken for this applicant at the respective stage. The code doesn’t use these columns for everything but this is just what this column should be used for, for the reader.
 
 
