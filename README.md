@@ -1,9 +1,8 @@
 # BSV Job Search Final Metrics
 
-## Implementation
+## Foreword
 
-* Coded in Python
-* Class project
+This document outlines the correct uses 
 
 
 
@@ -289,12 +288,19 @@ Counts the number of applicants that belong to each respective category of disab
 
 Adds the total desired reported salaries of all applicants the finds the average reported value.
 
+**Gender by Stages:**
+
+Counts number of applicants that identify as each gender with respect to each interview stage
+
 **Ethnicity by Stages:**
 
-Counts the number of applicants that belong to each respective category of ethnicity, interview stage, and gender and prints them to a table.
+Counts number of applicants that identify as each ethnicity with respect to each interview stage
 
+**Gender and Ethnicity by Stages:**
 
+Counts the number of applicants that belong to each respective category of ethnicity, gender, and each interview stage and prints them to a table.
 
 
 **Time to Hire:**
+
 This is a manual value that must be computed by the user. The code adds the label but can’t figure this value out on its own. The user must take the post date of the job posting and count the number of days it was visible until the role was filled.
