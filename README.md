@@ -85,7 +85,8 @@ To run the code on a respective google sheet, share the document with the email 
  - These are links to format templates of how the applicant info tab should be set up:
    - 2 Interview Rounds: https://docs.google.com/spreadsheets/d/1wObWThywQbw2HEzSX1MVX5guXa3gRqejYcpkH1or_bo/edit#gid=0
    - 3 Interview Rounds: https://docs.google.com/spreadsheets/d/1JSEwX1i_JBneS8Ms6uW_G08NJu_TJnWBVorbXNSoF6c/edit#gid=0
- - Also attached below are several pics of how the applicant info tab should be formatted to ensure the code can read it correctly.
+ - The sections below detail the applicant info tab should be formatted to ensure the code can read it correctly.
+ - Also below details the specific options for specific columns that offer various answers
 
 ### Overall 2 Round Format:
 
