@@ -20,13 +20,14 @@ This script was developed during my time at Breakthrough Silicon Valley and is i
   - 3 stage interview process
   - Each code performs the same processes with one version adding an extra round of interviews taken into account
 
-Note: A lot of the code is hard coded. This means that the code only operates under very specific parameters that have been set and will be detailed below. It is important that every parameter is followed for the code to work properly.
+**Note:** A lot of the code is hard coded. This means that the code only operates under very specific parameters that have been set and will be detailed below. It is important that every parameter is followed for the code to work properly.
 
 
 
 ## Important Setup
 
-Downloading programs to run Python
+### Downloading programs to run Python
+
 **1. Download Anaconda 3 :** https://www.anaconda.com/distribution/
  - Follow instructions to install anaconda on computer
  - Note: Anaconda automatically installs Python - coding language 
