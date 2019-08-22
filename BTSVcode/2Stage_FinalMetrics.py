@@ -1105,8 +1105,8 @@ def run():
 	disabledStats()
 	meanSalary()
 	gender_stagesStats()
-	ethnicity_stagesStats()
 	time.sleep(105)
+	ethnicity_stagesStats()
 	stages_ethnicity_genderStats()
 
 ##### Code runs the below two lines #####
